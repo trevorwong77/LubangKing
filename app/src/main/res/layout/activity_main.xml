@@ -1,0 +1,38 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.innotech.lubang.MainActivity">
+
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:id="@+id/map" tools:context=".MapsActivity"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        tools:layout="@layout/com_facebook_activity_layout"
+        android:layout_gravity="center_horizontal|top" />
+
+    <Button
+        android:id="@+id/share_button"
+        android:layout_width="100dp"
+        android:layout_height="95dp"
+        android:layout_below="@+id/text"
+        android:layout_marginTop="330dp"
+        android:text="SHARE"
+        android:onClick="shareLubang"
+        android:layout_gravity="right|bottom" />
+
+    <EditText
+        android:layout_width="251dp"
+        android:layout_height="89dp"
+        android:id="@+id/lubang_comment"
+        android:layout_marginTop="330dp"
+        android:layout_gravity="left|bottom"/>
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_marginTop="380dp"
+        android:layout_marginBottom="30dp"
+        android:visibility="invisible"/>
+</FrameLayout>

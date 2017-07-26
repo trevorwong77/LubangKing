@@ -1,0 +1,5 @@
+keytool -list -v -keystore "C:\Users\wongs\.android\debug.keystore" -alias androiddebugkey -storepass android -keypass android
+E4:B1:AE:1E:6E:84:8D:CC:CB:2D:E0:CA:3D:A2:34:96:42:F0:16:37
+
+
+keytool -exportcert -alias androiddebugkey -keystore C:\Users\wongs\.android\debug.keystore | "C:\Users\wongs\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\openssl" sha1 -binary | "C:\Users\wongs\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\openssl" base64

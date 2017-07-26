@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="google_app_id">lubang-king-25091977</string>
+    <string name="app_name">Lubang</string>
+    <string name="title_activity_lubang_maps">Lubang King</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="facebook_app_id">1576104322642038</string>
+    <string name="title_activity_home">HomeActivity</string>
+</resources>
